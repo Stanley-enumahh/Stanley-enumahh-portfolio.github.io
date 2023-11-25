@@ -370,9 +370,6 @@ transition: 0.4s ease-in-out;
   .active {
     height: 240px;
   }
-  .user-active{
-    user-select: none;
-  }
   .top-navigation nav ul li {
     font-size: 12px;
     line-height: .5rem;
@@ -1053,6 +1050,20 @@ color: #000;
   z-index: 1;
   border-radius: 5px; 
 }
+.review-title h1::after {
+  position: absolute;
+  content: ',,';
+ font-size: 10rem;
+  top: 155px;
+  left: 26%;
+  color: #efefef;
+  transform: rotate(180deg);
+  background: transparent;
+  opacity: .4;
+  z-index: 2;
+  border-radius: 5px; 
+}
+
 
 .reviews {
   margin: 40px;
@@ -1067,11 +1078,13 @@ color: #000;
   justify-content: center;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
   color: #ffff;
+  z-index: 1;
 }
 
 .img {
   margin-top: 50px;
 }
+
 .img img {
   width: 180px;
   height: 180px;
@@ -1125,10 +1138,18 @@ color: #000;
   .info {
     width: 80%;
   }
+  .review-title h1::after {
+    left: 16%;
+  }
 }
 @media screen and (max-width:500px){
   .review-title h1{
     font-size: 1.3rem;
+  }
+  .review-title h1::after {
+   font-size: 5rem;
+    top: 140px;
+    left: 16%;
   }
   .review-title p{
     font-size: .8rem;
@@ -1138,6 +1159,11 @@ color: #000;
   }
 }
 @media screen and (max-width:375px){
+  .review-title h1::after {
+    font-size: 5rem;
+     top: 125px;
+     left: 11%;
+   }
   .img {
     margin-top: 20px;
   }
