@@ -13,16 +13,16 @@ menu.addEventListener("click", () => {
 
 const reviews = [
   {
-    img: "https://i.guim.co.uk/img/media/0511ab9ac0ee1dc4f4ad76ae4c2a393d9208c170/216_164_2649_1590/master/2649.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=058cea43f3036b8fb547a4a609cc126e",
-    author: "Satan Dave",
-    job: "Artist",
-    info: " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit expedita quidem dolorem, modi eligendi illo, repellendus eveniet qui accusamus accusantium odit non ab. Quis delectus itaque ipsum, expedita blanditiis nemo!",
+    img: "./Screenshot_20231202-125456.png",
+    author: "Alpha grafix",
+    job: "Graphics Designer",
+    info: "Has been great working with my guy stanley for about a year now, great guy, pure creativity, delivers works with precision. Such a perfectionist, lol.",
   },
   {
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMYLclftHcSySj6obeVxsxNOfxKZDsGsuShIkufsYnQA&s",
-    author: "Bnxn",
-    job: "Manager",
-    info: " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit expedita quidem dolorem, modi eligendi illo, repellendus eveniet qui accusamus accusantium odit non ab. Quis delectus",
+    img: "./IMG-20231126-WA0066.jpg",
+    author: "Adaeze",
+    job: "Product Manager",
+    info: "Stanley is such a talent, i have had the opportunity of working on different projects with him, extraordinary",
   },
   {
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSwRcVwDSHRBEaV7VT3dGvWlRZW2ov2JTXYfYpjYiD_w&s",

@@ -940,6 +940,10 @@ color: #000;
   outline: none;
   border: none;
 }
+#viewbtn a{
+color: #fff;
+text-decoration: none;
+}
 
 #viewbtn:hover {
   opacity: .6;
